@@ -1,0 +1,79 @@
+body{
+    background-image: url(./images/BG.png);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+header>nav{
+    width: 376px;
+    display: flex;
+    justify-content: space-between;
+}
+header>nav>a{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;    
+}
+.auth{
+    display: flex;
+    justify-content: space-around;
+    width: 282px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.login>a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.4237px;
+    line-height: 16px;
+    /* identical to box height, or 119% */
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px; ;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.sign-up>a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.4237px;
+    line-height: 16px;
+    /* identical to box height, or 119% */
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #BB6DF3;    
+}
+.logo{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;    
+}
