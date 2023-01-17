@@ -87,6 +87,12 @@ header > nav > a {
   color: #FFFFFF;
 }
 
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
 .border {
   border: 1px solid #3B668D;
   width: 506px;
@@ -170,4 +176,13 @@ header > nav > a {
   /* identical to box height */
   text-align: center;
   color: #FFFFFF;
+}
+
+.design {
+  margin-right: 5%;
+}
+
+.design > img {
+  margin-top: 20%;
+  height: 500px;
 }/*# sourceMappingURL=style.css.map */
