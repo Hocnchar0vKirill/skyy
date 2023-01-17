@@ -77,3 +77,81 @@ header>nav>a{
     text-decoration: none;
     color: #FFFFFF;    
 }
+.border{
+    border: 1px solid #3B668D;
+    width: 506px;
+}
+.home-info{
+    width: 579px;
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 330px;
+    margin-top: 150px;
+}
+.home-info>h1{
+    width: 500px;
+    height: 140px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 70px;
+    /* or 97% */
+    text-transform: uppercase;
+    color: #3B668D;
+}
+.online-storage{
+    width: 579px;
+    height: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+    letter-spacing: 0.905em;
+    text-transform: uppercase;
+    color: #3B668D;    
+}
+.home-info>h2{
+    width: 500px;
+    height: 41px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 156%;
+    /* identical to box height, or 41px */
+    text-transform: uppercase;
+    color: #3B668D;
+}
+.definition{
+    width: 496px;
+    height: 112px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    /* or 28px */
+    letter-spacing: 0.075em;
+    color: #2B4964;    
+}
+.home-info>button{
+    width: 308px;
+    height: 79px;
+    background: linear-gradient(90deg, #5AC4FF 0%, #B250FF 100%);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 62px;
+    border: none;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;    
+}
