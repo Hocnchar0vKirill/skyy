@@ -1,5 +1,22 @@
+@mixin feature-h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 60px;
+    color: #3B668D;    
+}
+@mixin feature-p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B4964;    
+}
 body{
-    background-image: url(./images/BG.png);
+    background-image: url(./images/BG/BG.png);
+    background-repeat: no-repeat;
 }
 header{
     display: flex;
@@ -166,4 +183,50 @@ header>nav>a{
 .design>img{
     margin-top: 20%;
     height: 500px;
+}
+.fetures-section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1682px;
+    height: 1166.39px;
+    margin-top: 30%;
+    left: 0%;
+    margin-left: -1%;
+}
+.features-illustration{
+    img{
+        width: 896px;
+    }
+    .feature-img{
+        background: url(./images/BG/bg-for-icons.png);
+    }
+}
+.features{
+    width: 612px;
+    height: 896px;
+    margin-right: 5%;
+}
+.feature-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 606px;
+    height: 217px;
+    margin-left: -20%;
+}
+.feature-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1{
+        height: 59px;
+        width: 488px;  
+        @include feature-h1 
+    }
+    p{
+        height: 126px;
+        width: 438px;    
+        @include feature-p    
+    }
 }
