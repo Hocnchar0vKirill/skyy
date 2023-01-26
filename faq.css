@@ -101,6 +101,7 @@ main {
   background: url(./images/BG/faq-bg-main.png);
   background-repeat: no-repeat;
   background-position: 0% 90%;
+  background-attachment: local;
 }
 
 .home-info {
