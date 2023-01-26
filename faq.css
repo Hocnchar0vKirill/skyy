@@ -12,9 +12,10 @@ header img {
   align-items: center;
   flex-direction: row;
   width: 100%;
+  margin-top: 2%;
 }
 
-nav {
+.nav-elements {
   width: 376px;
   display: flex;
   justify-content: space-between;
@@ -97,6 +98,9 @@ main {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background: url(./images/BG/faq-bg-main.png);
+  background-repeat: no-repeat;
+  background-position: 0% 90%;
 }
 
 .home-info {
@@ -130,4 +134,185 @@ main {
   letter-spacing: 0.905em;
   text-transform: uppercase;
   color: #3B668D;
+}
+
+.accordion {
+  margin-top: 5%;
+  width: 60%;
+}
+
+.accordion-button {
+  background: linear-gradient(90deg, #B2E3FF 0%, #DFBFFF 100%);
+}
+
+.accordion-item {
+  background: #878787;
+}
+
+.accordion-name {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 21px;
+  color: #46637E;
+}
+
+.members-stats {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
+.files {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 518px;
+  height: 76px;
+}
+.files div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.files-ammount {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 47px;
+  text-align: center;
+  color: #425B8C;
+}
+
+.files-uploaded {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  color: #718DC2;
+  margin-top: -5%;
+}
+
+footer {
+  position: absolute;
+  background: url(./images/BG/footer-bg.png);
+  background-repeat: no-repeat;
+  bottom: 0%;
+  top: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 1085px;
+  margin-top: 50%;
+  left: 0%;
+}
+
+.ftr-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 30%;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 225px;
+  height: 54px;
+}
+.about-us h1 {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  color: white;
+}
+.about-us p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  width: 418px;
+  height: 283px;
+}
+
+.featured-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 372px;
+}
+.featured-links h1 {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  color: white;
+}
+.featured-links p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 407px;
+}
+.contact-us h1 {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  color: white;
+}
+.contact-us p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.border3 {
+  width: 90%;
+  opacity: 0.4;
+  border: 1px solid #FFFFFF;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  color: white;
 }/*# sourceMappingURL=faq.css.map */
