@@ -1,0 +1,122 @@
+header{
+    img{
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        position: absolute;
+    }
+}
+.header-elements{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+nav{
+    width: 376px;
+    display: flex;
+    justify-content: space-between;
+}
+nav>a{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;    
+}
+.auth{
+    display: flex;
+    justify-content: space-around;
+    width: 282px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.login>a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.4237px;
+    line-height: 16px;
+    /* identical to box height, or 119% */
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px; ;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.sign-up>a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.4237px;
+    line-height: 16px;
+    /* identical to box height, or 119% */
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #BB6DF3;    
+}
+.logo{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;    
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-info{
+    margin-top: 20%;
+    width: 579px;
+    height: 121px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.faq{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 70px;
+    letter-spacing: 0.405em;
+    text-transform: uppercase;
+    color: #3B668D;     
+    top: 30%; 
+}
+.faq-def{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.905em;
+    text-transform: uppercase;
+    color: #3B668D;    
+}
