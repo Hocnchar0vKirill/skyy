@@ -195,7 +195,7 @@ main{
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #606F89;    
+    background: #DAE1EC;   
     border: none;
     cursor: pointer;
 }
@@ -326,11 +326,91 @@ main{
             color: #606F89;
         }
 }
-tr{
+table{
+    width: 100%;
+}
+.files_table{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+td{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.classification{
+    width: 300px;
+    height: 24px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-left: 3.3%;
+        p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #2E3B52;  
+            margin-left: 25%;
+            width: 168px;           
+        }
+        img{
+            margin-left: 150%;
+        }
+}
+.dl{
+    margin-left: 7%;
+}
+.settings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 453px;
+    height: 21px;
+    margin-left: 18%;
+    p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        color: #2E3B52;        
+    }
+    button{
+        background: #0A65FF;
+        border-radius: 11px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+    }
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 93px;
+    height: 23px;
+    margin-right: 10%;
+}
+.white-row-bg{
+    background-color: white;
 }
 footer{
     position: absolute;
